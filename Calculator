@@ -1,0 +1,12 @@
+x=int(input("vpisi st.1: "))
+y=int(input("vpisi st.2: "))
+operation=input("izberi operacijo: za sestevanje vpisi +, za odstevanje -, mnozenje * ali deljenje / ")
+
+if operation=="+":
+    print(x+y)
+elif operation=="-":
+    print(x-y)
+elif operation=="*":
+    print(x*y)
+elif operation=="/":
+    print(x/y)
